@@ -1,0 +1,14 @@
+{
+    "name": "groupdocscloud/groupdocs-parser-cloud-php-examples",
+    "description": "GroupDocs.Parser Cloud SDK for PHP Examples",
+    "license": "MIT",
+    "repositories": [
+        {
+          "type": "git",
+          "url": "https://github.com/groupdocs-parser-cloud/groupdocs-parser-cloud-php.git"
+        }
+      ],
+      "require": {
+        "groupdocscloud/groupdocs-parser-cloud": "dev-master"
+      }
+}
