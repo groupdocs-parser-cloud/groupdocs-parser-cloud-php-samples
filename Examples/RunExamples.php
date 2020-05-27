@@ -26,7 +26,7 @@ include(__DIR__ . '\TemplateOperations\DeleteTemplate.php');
 include(__DIR__ . '\TemplateOperations\GetTemplate.php');
 
 // Uploading sample files into storage
-//Utils::UploadResources();
+Utils::UploadResources();
 
 // Info Examples
 
