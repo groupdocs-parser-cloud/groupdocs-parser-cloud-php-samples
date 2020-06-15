@@ -21,6 +21,7 @@ class ExtractImagesFromTheWholeDocument
 
 		foreach ($response->getImages() as $key => $image) {
 			echo "Image path in storage: ", $image->getPath(), ". Download url: ", $image->getDownloadUrl() . PHP_EOL;
+			echo "Image format: ", $image->getFileFormat(), ". Page index: ",$image->getPageIndex() . PHP_EOL;
 		}
 		echo "\n";
 	}
